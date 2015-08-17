@@ -1,0 +1,38 @@
+--- src/pydio-sync-java/java/pom.xml	2014-02-18 17:46:59.134930563 +0100
++++ src/pydio-sync-java/java/pom.xml.new	2014-02-18 17:47:41.088905811 +0100
+@@ -84,7 +84,7 @@
+ 					</execution>
+ 				</executions>
+ 			</plugin>
+-			<plugin>
++			<!--<plugin>
+ 				<groupId>org.codehaus.gmaven</groupId>
+ 				<artifactId>gmaven-plugin</artifactId>
+ 				<executions>
+@@ -104,7 +104,7 @@
+ 						</configuration>
+ 					</execution>
+ 				</executions>
+-			</plugin>
++			</plugin>-->
+ 			<plugin>
+ 				<artifactId>maven-assembly-plugin</artifactId>
+ 				<version>2.3</version>
+@@ -129,7 +129,7 @@
+ 					</execution>
+ 				</executions>
+ 			</plugin>
+-			<plugin>
++			<!--<plugin>
+ 				<artifactId>maven-antrun-plugin</artifactId>
+ 				<version>1.7</version>
+ 				<executions>
+@@ -163,7 +163,7 @@
+ 						<version>1.8.1</version>
+ 					</dependency>
+ 				</dependencies>
+-			</plugin>
++			</plugin>-->
+ 		</plugins>
+ 		<pluginManagement>
+ 			<plugins>
